@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Coding Club</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="top">
+      <div class="bar white wide padding card">
+        <a href="#home" class="bar-item button"><b>Coding</b> Club</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="right hide-small">
+          <a href="#mission" class="bar-item button">Mission</a>
+          <a href="#about" class="bar-item button">About</a>
+          <a href="#contact" class="bar-item button">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="container padding-32" id="mission">
+        <h3 class="border-bottom border-light-grey padding-16">
+            Mission
+        </h3>
+        <p>
+            Are mission is to allow students who have an interest in cs to join are club.
+            So we can help them have fun and learn about CS.    
+        </p>
+    </div>
+
+
+    <div class="container padding-32" id="about">
+        <h3 class="border-bottom border-light-grey padding-16">
+            About
+        </h3>
+        <p>
+            We are the coding club. We work on Data structures and algorithms, 
+            the way you manipulate data to get an output. We will be happy if you joined 
+            coding club. It's your chance to try something new and learn in a community
+            of like minded students, so give are club a chance and try - we do CS competitions.
+        </p>
+    </div>
+      <div class="container padding-32" id="contact">
+        <h3 class="border-bottom border-light-grey padding-16">
+          Contact
+        </h3>
+        <p>If you have any questions, you can contact us below</p>
+        <form id='contact-form' action="/action_page.js" >
+          <input
+            class="input border"
+            type="text"
+            placeholder="Name"
+            required
+            name="Name"
+          />
+          <input
+            class="input section border"
+            type="text"
+            placeholder="Email"
+            required
+            name="Email"
+          />
+          <input
+            class="input section border"
+            type="text"
+            placeholder="Subject"
+            required
+            name="Subject"
+          />
+          <input
+            class="input section border"
+            type="text"
+            placeholder="Comment"
+            required
+            name="Comment"
+          />
+          <button class="button black section" type="submit" >
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </form>
+      </div>
+
+      
+
+      <!-- End page content -->
+    </div>
+
+    
+  </body>
+  <footer >
+    <p >All rights reserved. Copyright of Coding Club</p>
+  </footer>
+</html>
